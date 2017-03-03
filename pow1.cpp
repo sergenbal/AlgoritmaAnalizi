@@ -4,7 +4,7 @@
 using namespace std;
 
 int m = 0;
-long pow(int x, int n)
+long pow(long x, long n)
 {
 m = m+1;
 if(n==0) return 1;
@@ -20,8 +20,8 @@ int main(int argc, char *argv[])
 {
     
    
-    int a;
-    int b;
+    long a;
+    long b;
     cout<<"taban sayisini giriniz:";
    
     cin>>a;
